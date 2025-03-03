@@ -86,13 +86,12 @@ footer {
 }
 
 body {
-  font-family: 'Menlo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #F4E1D2; 
   color: #4B3C2B; 
   line-height: 1.6;
 }
 
-/* Navigation Bar */
 nav {
   background-color: #D1A28E; 
   padding: 1rem 0;
@@ -102,6 +101,7 @@ nav {
   display: flex;
   justify-content: center;
   list-style: none;
+  position: relative;
 }
 
 .nav-links li {
