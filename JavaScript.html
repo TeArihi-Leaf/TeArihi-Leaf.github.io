@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+  <div class="nav-container">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tech-skills.html">Tech Skills</a></li>
+        <li><a href="human-skills.html">Human Skills</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+        <div class="intro">
+          <header>
+            <h1>Understanding JavaScript with Māori Analogie</h1>
+
+            <p>If you've ever tried to understand JavaScript but felt like it was written in an alien language, you're not alone. Learning to code can feel overwhelming, but think of it like learning how to cook. At first, it’s confusing, but once you understand the basics, you can start experimenting and making your own recipes!.</p>
+           
+           
+          </header>
+        </div>
+          
+          <h2>1. JavaScript, HTML, and CSS – The Hāngī</h2>
+          <p>Think of a hāngī. 
+        <ul>
+          <li><strong>HTML</strong>: HTML is like the hāngī pit and stones. It provides the structure and foundation.</li>
+          <li><strong>CSS</strong>:is like the seasoning, arrangement of food, and the way the meal looks. It makes things visually appealing.</li>
+          <li><strong>JavaScript</strong>:is the fire that heats the stones and cooks the food. It brings everything to life and makes it work.</li>
+          </ul>
+          <p>Without fire (JavaScript), the food wouldn’t cook, just like how a webpage without JavaScript would be static and lifeless.</p>
+          
+          
+          <<h2>2. Control Flow & Loops – Preparing a Hāngī</h2>
+          <p>Control flow follows the steps of making a hāngī:</p>
+          <pre class="code">
+      let steps = ["Dig hole", "Heat stones", "Wrap food", "Place food in pit", "Cover and cook"];
+      for (let step of steps) {
+          console.log("Step: " + step);
+      }
+          </pre>
+          <p>Loops automate repeated tasks, like wrapping multiple food items.</p>
+          
+          
+          <h2>3. The DOM – A Marae Analogy</h2>
+          <p>The DOM is like a marae, with elements we can interact with:</p>
+          <div id="welcomeMessage">Nau mai ki te marae!</div>
+          <button onclick="changeMessage()">Change Message</button>
+          <script>
+              function changeMessage() {
+                  document.getElementById("welcomeMessage").innerText = "Haere mai, e te whānau!";
+              }
+          </script>
+          
+          
+          <h2>4. Arrays vs Objects – Waka vs Whānau</h2>
+          <p><strong>Arrays (waka)</strong>: Ordered list of people.</p>
+          <pre class="code">
+      let waka = ["Hone", "Mere", "Tama"];
+      console.log(waka[0]); // Hone (first person in the waka)
+          </pre>
+          <p><strong>Objects (whānau)</strong>: Named members.</p>
+          <pre class="code">
+      let whanau = { father: "Hone", mother: "Mere", son: "Tama" };
+      console.log(whanau.mother); // Mere
+          
+          
+          <h2>5. Functions – Karakia Before a Hāngī</h2>
+          <p>A function is like a karakia, preparing everything before starting.</p>
+          <pre class="code">
+      function karakia() {
+          console.log("E te atua, whakapaingia ēnei kai.");
+      }
+      karakia();
+          </pre>
+          <button onclick="karakia()">Perform Karakia</button>
+          <script>
+              function karakia() {
+                  alert("E te atua, whakapaingia ēnei kai.");
+              }
+          </script>
+         
+      
+
+    <footer>
+      <p>&copy; 2025 TeArihi Blog.</p>
+    </footer>
+
+</body>
+</html>
