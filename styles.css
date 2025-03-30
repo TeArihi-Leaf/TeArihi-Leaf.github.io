@@ -118,17 +118,17 @@ eq-vs-iq {
   flex: 1;
   padding: 20px;
   border-radius: 10px;
-  background-color: #dbd4cb; /* Light Beige */
+  background-color: #dbd4cb; 
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .iq {
-  background-color: #b9a185; /* Soft Brown */
+  background-color: #b9a185; 
   color: #fff;
 }
 
 .eq {
-  background-color: #6b533c; /* Darker Brown */
+  background-color: #6b533c; 
   color: #fff;
 }
 
